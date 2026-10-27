@@ -1,0 +1,2135 @@
+{
+    "comment":  "Boss Reflections boss table. Order = menu order. See README for field meanings.",
+    "bosses":  [
+                   {
+                       "key":  "godrick",
+                       "map":  "m10_00_00_00",
+                       "mapId":  [
+                                     10,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  10000800,
+                       "anchorEntity":  10000800,
+                       "defeatFlag":  10000800,
+                       "nameId":  904750000,
+                       "banner":  16,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  10002805,
+                       "startRegion":  10002800,
+                       "fallbackAi":  true,
+                       "spawn":  {
+                                     "entity":  10000989,
+                                     "clone":  10000988,
+                                     "x":  -203.12,
+                                     "y":  82.36,
+                                     "z":  312.98,
+                                     "rotY":  149.98
+                                 },
+                       "exitSpawn":  10000987,
+                       "flags":  {
+                                     "request":  10000990,
+                                     "active":  10000991,
+                                     "warping":  10000992,
+                                     "loaded":  10000993,
+                                     "wasDefeated":  10000994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6002,
+                       "tempOff":  [
+                                       {
+                                           "flag":  10000801,
+                                           "value":  10000960,
+                                           "saved":  10000961
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  10001800,
+                                            "sfx":  5,
+                                            "early":  1
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  10001800,
+                                       "region":  10000979,
+                                       "clone":  10002800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       10000950,
+                                                       10000951
+                                                   ],
+                                    "assets":  [
+                                                   10001950,
+                                                   10001951
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "rennala",
+                       "map":  "m14_00_00_00",
+                       "mapId":  [
+                                     14,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  14000800,
+                       "anchorEntity":  14000801,
+                       "defeatFlag":  14000800,
+                       "nameId":  902030000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  14002805,
+                       "startRegion":  14002800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  14000989,
+                                     "clone":  14000983,
+                                     "x":  92.99,
+                                     "y":  154.61,
+                                     "z":  -44.85,
+                                     "rotY":  108.18
+                                 },
+                       "exitSpawn":  14000980,
+                       "flags":  {
+                                     "request":  14000990,
+                                     "active":  14000991,
+                                     "warping":  14000992,
+                                     "loaded":  14000993,
+                                     "wasDefeated":  14000994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  14000801,
+                                           "value":  14000960,
+                                           "saved":  14000961
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  14001800,
+                                            "sfx":  3,
+                                            "early":  14000801
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  14001800,
+                                       "region":  14000988,
+                                       "clone":  14002800,
+                                       "radius":  38,
+                                       "center":  [
+                                                      67.4,
+                                                      154.36,
+                                                      -34.45
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       14000950,
+                                                       14000951,
+                                                       14000700,
+                                                       14000701
+                                                   ],
+                                    "assets":  [
+                                                   14001950,
+                                                   14001951
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "radahn",
+                       "map":  "m60_52_38_00",
+                       "mapId":  [
+                                     60,
+                                     52,
+                                     38,
+                                     0
+                                 ],
+                       "bossEntity":  1052380800,
+                       "anchorEntity":  1052380800,
+                       "defeatFlag":  1252380800,
+                       "nameId":  904730000,
+                       "banner":  16,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  1052382805,
+                       "startRegion":  0,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  1051380989,
+                                     "clone":  1052530980,
+                                     "x":  20.59,
+                                     "y":  13.7,
+                                     "z":  -110.18,
+                                     "rotY":  -116.34,
+                                     "map":  "m60_51_38_00",
+                                     "cloneMap":  "m60_52_53_00"
+                                 },
+                       "exitSpawn":  1052380980,
+                       "flags":  {
+                                     "request":  1252380990,
+                                     "active":  1252380991,
+                                     "warping":  1252380992,
+                                     "loaded":  1252380993,
+                                     "wasDefeated":  1252380994
+                                 },
+                       "radius":  600,
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6002,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  1052401800,
+                                            "sfx":  5,
+                                            "early":  0
+                                        }
+                                    ],
+                       "hide":  {
+                                    "characters":  [
+                                                       1052380950
+                                                   ],
+                                    "assets":  [
+                                                   1052381950,
+                                                   1052381690
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "rykard",
+                       "map":  "m16_00_00_00",
+                       "mapId":  [
+                                     16,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  16000800,
+                       "anchorEntity":  16000801,
+                       "defeatFlag":  16000800,
+                       "nameId":  904710001,
+                       "banner":  16,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  16002805,
+                       "startRegion":  16002801,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  16000989,
+                                     "clone":  16000994,
+                                     "x":  97.29,
+                                     "y":  -439.1,
+                                     "z":  -33.97,
+                                     "rotY":  -0.32
+                                 },
+                       "exitSpawn":  16000980,
+                       "flags":  {
+                                     "request":  16000990,
+                                     "active":  16000991,
+                                     "warping":  16000992,
+                                     "loaded":  16000993,
+                                     "wasDefeated":  16000994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "giveWeapon":  {
+                                          "id":  17030000,
+                                          "itemLot":  7980000,
+                                          "given":  16000960
+                                      },
+                       "fogWalls":  [
+                                        {
+                                            "asset":  16001801,
+                                            "sfx":  3,
+                                            "early":  1
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  16001801,
+                                       "region":  16000988,
+                                       "clone":  16002801,
+                                       "radius":  53,
+                                       "center":  [
+                                                      95.49,
+                                                      -438.98,
+                                                      -76.19
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       16000950,
+                                                       16000951,
+                                                       16000962
+                                                   ],
+                                    "assets":  [
+                                                   16001950,
+                                                   16001951,
+                                                   16001962
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "morgott",
+                       "map":  "m11_00_00_00",
+                       "mapId":  [
+                                     11,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  11000800,
+                       "anchorEntity":  11000800,
+                       "defeatFlag":  11000800,
+                       "nameId":  902130002,
+                       "banner":  16,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  11002805,
+                       "startRegion":  11002800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  11000979,
+                                     "clone":  11000989,
+                                     "x":  3.66,
+                                     "y":  65.5,
+                                     "z":  -372.19,
+                                     "rotY":  -34.88
+                                 },
+                       "exitSpawn":  11000980,
+                       "flags":  {
+                                     "request":  11000990,
+                                     "active":  11000991,
+                                     "warping":  11000992,
+                                     "loaded":  11000993,
+                                     "wasDefeated":  11000994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  11000801,
+                                           "value":  11000960,
+                                           "saved":  11000961
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  11001800,
+                                            "sfx":  17,
+                                            "early":  1
+                                        },
+                                        {
+                                            "asset":  11001801,
+                                            "sfx":  18,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  11001800,
+                                       "region":  11000978,
+                                       "clone":  11002800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       11000950,
+                                                       11000951
+                                                   ],
+                                    "assets":  [
+                                                   11001950,
+                                                   11001951
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "fire_giant",
+                       "map":  "m60_52_52_00",
+                       "mapId":  [
+                                     60,
+                                     52,
+                                     52,
+                                     0
+                                 ],
+                       "bossEntity":  1052520800,
+                       "anchorEntity":  1052520801,
+                       "defeatFlag":  1252520800,
+                       "nameId":  904760000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  1252522805,
+                       "startRegion":  0,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  1052530989,
+                                     "clone":  1052530980,
+                                     "x":  17.29,
+                                     "y":  1809.94,
+                                     "z":  -14.45,
+                                     "rotY":  -47.2,
+                                     "map":  "m60_52_53_00"
+                                 },
+                       "exitSpawn":  1052523800,
+                       "flags":  {
+                                     "request":  1252520990,
+                                     "active":  1252520991,
+                                     "warping":  1252520992,
+                                     "loaded":  1252520993,
+                                     "wasDefeated":  1252520994
+                                 },
+                       "radius":  300,
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  0,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  1052521800,
+                                            "sfx":  0,
+                                            "early":  0
+                                        },
+                                        {
+                                            "asset":  1052531800,
+                                            "sfx":  9,
+                                            "early":  1252520801
+                                        },
+                                        {
+                                            "asset":  1052531801,
+                                            "sfx":  10,
+                                            "early":  0
+                                        },
+                                        {
+                                            "asset":  1052531802,
+                                            "sfx":  0,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  1052531800,
+                                       "region":  1052530988,
+                                       "clone":  1052532800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+
+                                                   ],
+                                    "assets":  [
+
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "regal_ancestor",
+                       "map":  "m12_09_00_00",
+                       "mapId":  [
+                                     12,
+                                     9,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  12090800,
+                       "anchorEntity":  12090800,
+                       "defeatFlag":  12090800,
+                       "nameId":  904670001,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  12092805,
+                       "startRegion":  12092800,
+                       "fallbackAi":  true,
+                       "spawn":  {
+                                     "entity":  12090989,
+                                     "clone":  12090970,
+                                     "x":  1216.32,
+                                     "y":  -1537.87,
+                                     "z":  1817.65,
+                                     "rotY":  152.54
+                                 },
+                       "exitSpawn":  12090970,
+                       "flags":  {
+                                     "request":  12090990,
+                                     "active":  12090991,
+                                     "warping":  12090992,
+                                     "loaded":  12090993,
+                                     "wasDefeated":  12090994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  12091800,
+                                            "sfx":  8,
+                                            "early":  1
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  12091800,
+                                       "region":  12090988,
+                                       "clone":  12092800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+
+                                                   ],
+                                    "assets":  [
+
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "astel",
+                       "map":  "m12_04_00_00",
+                       "mapId":  [
+                                     12,
+                                     4,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  12040800,
+                       "anchorEntity":  12040800,
+                       "defeatFlag":  12040800,
+                       "nameId":  904620001,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  12042805,
+                       "startRegion":  12042800,
+                       "fallbackAi":  true,
+                       "spawn":  {
+                                     "entity":  12040989,
+                                     "clone":  12040980,
+                                     "x":  -104.6,
+                                     "y":  -105.59,
+                                     "z":  -245.01,
+                                     "rotY":  -174.25
+                                 },
+                       "exitSpawn":  12040970,
+                       "flags":  {
+                                     "request":  12040990,
+                                     "active":  12040991,
+                                     "warping":  12040992,
+                                     "loaded":  12040993,
+                                     "wasDefeated":  12040994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  0,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  12041800,
+                                            "sfx":  8,
+                                            "early":  1
+                                        },
+                                        {
+                                            "asset":  12041801,
+                                            "sfx":  8,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  12041800,
+                                       "region":  12040988,
+                                       "clone":  12042800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       12040950
+                                                   ],
+                                    "assets":  [
+                                                   12041950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "mohg",
+                       "map":  "m12_05_00_00",
+                       "mapId":  [
+                                     12,
+                                     5,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  12050800,
+                       "anchorEntity":  12050800,
+                       "defeatFlag":  12050800,
+                       "nameId":  904800000,
+                       "banner":  16,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  12052805,
+                       "startRegion":  12052800,
+                       "fallbackAi":  true,
+                       "spawn":  {
+                                     "entity":  12050989,
+                                     "clone":  12050983,
+                                     "x":  1613.59,
+                                     "y":  -505.28,
+                                     "z":  1205.06,
+                                     "rotY":  127.36
+                                 },
+                       "exitSpawn":  12050971,
+                       "flags":  {
+                                     "request":  12050990,
+                                     "active":  12050991,
+                                     "warping":  12050992,
+                                     "loaded":  12050993,
+                                     "wasDefeated":  12050994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  12050801,
+                                           "value":  12050960,
+                                           "saved":  12050961
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  12051800,
+                                            "sfx":  4,
+                                            "early":  12050801
+                                        },
+                                        {
+                                            "asset":  12051801,
+                                            "sfx":  12,
+                                            "early":  0
+                                        },
+                                        {
+                                            "asset":  12051802,
+                                            "sfx":  12,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  12051800,
+                                       "region":  12050988,
+                                       "clone":  12052800,
+                                       "radius":  58,
+                                       "center":  [
+                                                      1570.94,
+                                                      -503.16,
+                                                      1225.18
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       12050950
+                                                   ],
+                                    "assets":  [
+                                                   12051950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "fortissax",
+                       "map":  "m12_03_00_00",
+                       "mapId":  [
+                                     12,
+                                     3,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  12030850,
+                       "anchorEntity":  12030850,
+                       "defeatFlag":  12030850,
+                       "nameId":  904510000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  12032859,
+                       "startRegion":  0,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  12030989,
+                                     "clone":  12030985,
+                                     "x":  -374.63,
+                                     "y":  149.88,
+                                     "z":  -180.93,
+                                     "rotY":  -11.3
+                                 },
+                       "exitSpawn":  12030985,
+                       "flags":  {
+                                     "request":  12030990,
+                                     "active":  12030991,
+                                     "warping":  12030992,
+                                     "loaded":  12030993,
+                                     "wasDefeated":  12030994
+                                 },
+                       "presenceDelay":  60,
+                       "resetFlags":  [
+                                          12032859,
+                                          12032858
+                                      ],
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  0,
+                       "prepFog":  {
+                                       "asset":  0,
+                                       "region":  12030988,
+                                       "clone":  12032805,
+                                       "radius":  8,
+                                       "trigger":  {
+                                                       "entity":  12030987,
+                                                       "clone":  12031810,
+                                                       "x":  -374.14,
+                                                       "y":  149.38,
+                                                       "z":  -183.38
+                                                   }
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       12030950
+                                                   ],
+                                    "assets":  [
+                                                   12031950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "maliketh",
+                       "map":  "m13_00_00_00",
+                       "mapId":  [
+                                     13,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  13000800,
+                       "anchorEntity":  13000801,
+                       "defeatFlag":  13000800,
+                       "nameId":  902110001,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  13002805,
+                       "startRegion":  13002800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  13000979,
+                                     "clone":  13000990,
+                                     "x":  132.71,
+                                     "y":  -32.17,
+                                     "z":  395.49,
+                                     "rotY":  -73.35
+                                 },
+                       "exitSpawn":  13000980,
+                       "flags":  {
+                                     "request":  13000990,
+                                     "active":  13000991,
+                                     "warping":  13000992,
+                                     "loaded":  13000993,
+                                     "wasDefeated":  13000994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  0,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  13001800,
+                                            "sfx":  4,
+                                            "early":  1
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  13001800,
+                                       "region":  13000978,
+                                       "clone":  13002800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       13000951,
+                                                       13000952
+                                                   ],
+                                    "assets":  [
+                                                   13001951,
+                                                   13001952
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "placidusax",
+                       "map":  "m13_00_00_00",
+                       "mapId":  [
+                                     13,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  13000830,
+                       "anchorEntity":  13000830,
+                       "defeatFlag":  13000830,
+                       "nameId":  904520000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  0,
+                       "startRegion":  13002831,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  13000977,
+                                     "clone":  13000990,
+                                     "x":  -95.37,
+                                     "y":  1009.76,
+                                     "z":  295.76,
+                                     "rotY":  -107.84
+                                 },
+                       "exitSpawn":  13000981,
+                       "flags":  {
+                                     "request":  13000995,
+                                     "active":  13000996,
+                                     "warping":  13000997,
+                                     "loaded":  13000998,
+                                     "wasDefeated":  13000999
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  0,
+                       "hide":  {
+                                    "characters":  [
+                                                       13000951,
+                                                       13000952
+                                                   ],
+                                    "assets":  [
+                                                   13001951,
+                                                   13001952
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "hoarah_loux",
+                       "map":  "m11_05_00_00",
+                       "mapId":  [
+                                     11,
+                                     5,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  11050800,
+                       "anchorEntity":  11050801,
+                       "defeatFlag":  11050800,
+                       "nameId":  904720001,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  11052805,
+                       "startRegion":  11052800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  11050989,
+                                     "clone":  11050985,
+                                     "x":  3.94,
+                                     "y":  65.48,
+                                     "z":  -372.11,
+                                     "rotY":  -34.46
+                                 },
+                       "exitSpawn":  11050970,
+                       "flags":  {
+                                     "request":  11050990,
+                                     "active":  11050991,
+                                     "warping":  11050992,
+                                     "loaded":  11050993,
+                                     "wasDefeated":  11050994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  11050801,
+                                           "value":  11050960,
+                                           "saved":  11050961
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  11051800,
+                                            "sfx":  17,
+                                            "early":  1
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  11051800,
+                                       "region":  11050988,
+                                       "clone":  11052800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       11050950,
+                                                       11050951
+                                                   ],
+                                    "assets":  [
+                                                   11051950,
+                                                   11051951
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "malenia",
+                       "map":  "m15_00_00_00",
+                       "mapId":  [
+                                     15,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  15000800,
+                       "anchorEntity":  15000800,
+                       "defeatFlag":  15000800,
+                       "nameId":  902120000,
+                       "banner":  16,
+                       "finalPhaseFlag":  15002802,
+                       "fogFlag":  15002805,
+                       "startRegion":  15002800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  15000989,
+                                     "clone":  15000988,
+                                     "x":  46.12,
+                                     "y":  55.15,
+                                     "z":  520.87,
+                                     "rotY":  53.02
+                                 },
+                       "exitSpawn":  15000984,
+                       "flags":  {
+                                     "request":  15000990,
+                                     "active":  15000991,
+                                     "warping":  15000992,
+                                     "loaded":  15000993,
+                                     "wasDefeated":  15000994
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  15000801,
+                                           "value":  15000960,
+                                           "saved":  15000961
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  15001800,
+                                            "sfx":  5,
+                                            "early":  1
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  15001800,
+                                       "region":  15000979,
+                                       "clone":  15002800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       15000950,
+                                                       15000955
+                                                   ],
+                                    "assets":  [
+                                                   15001950,
+                                                   15001955
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "radagon_elden_beast",
+                       "map":  "m19_00_00_00",
+                       "mapId":  [
+                                     19,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  19000800,
+                       "anchorEntity":  19000810,
+                       "defeatFlag":  19000800,
+                       "nameId":  902200000,
+                       "banner":  27,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  19002801,
+                       "startRegion":  19002800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  19000989,
+                                     "clone":  19000980,
+                                     "x":  84.16,
+                                     "y":  79.56,
+                                     "z":  -477.32,
+                                     "rotY":  -36.32
+                                 },
+                       "exitSpawn":  19000980,
+                       "flags":  {
+                                     "request":  19000990,
+                                     "active":  19000991,
+                                     "warping":  19000992,
+                                     "loaded":  19000993,
+                                     "wasDefeated":  19000994
+                                 },
+                       "radius":  300,
+                       "menuText":  {
+                                        "engus":  "Radagon and the Elden Beast",
+                                        "rusru":  "Радагон и Зверь Элдена"
+                                    },
+                       "menuNameIds":  [
+                                           902190000,
+                                           902200000
+                                       ],
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  19000804,
+                                           "value":  19000960,
+                                           "saved":  19000961
+                                       },
+                                       {
+                                           "flag":  19002801,
+                                           "value":  19000962,
+                                           "saved":  19000963
+                                       }
+                                   ],
+                       "prepFog":  {
+                                       "asset":  0,
+                                       "region":  19000988,
+                                       "clone":  19002800,
+                                       "radius":  110,
+                                       "center":  [
+                                                      140.85,
+                                                      90.91,
+                                                      -551.59
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       19000950,
+                                                       19000700,
+                                                       19000710,
+                                                       19000130
+                                                   ],
+                                    "assets":  [
+                                                   19001950,
+                                                   19001100,
+                                                   19001101,
+                                                   19001110,
+                                                   19001120,
+                                                   19001130
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "radagon",
+                       "map":  "m19_00_00_00",
+                       "mapId":  [
+                                     19,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  19000810,
+                       "anchorEntity":  19000810,
+                       "defeatFlag":  19000800,
+                       "nameId":  902190000,
+                       "banner":  27,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  19002801,
+                       "startRegion":  19002800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  19000987,
+                                     "clone":  19000980,
+                                     "x":  84.16,
+                                     "y":  79.56,
+                                     "z":  -477.32,
+                                     "rotY":  -36.32
+                                 },
+                       "exitSpawn":  19000980,
+                       "flags":  {
+                                     "request":  19000995,
+                                     "active":  19000996,
+                                     "warping":  19000997,
+                                     "loaded":  19000998,
+                                     "wasDefeated":  19000999
+                                 },
+                       "radius":  300,
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  19002801,
+                                           "value":  19000964,
+                                           "saved":  19000965
+                                       }
+                                   ],
+                       "prepFog":  {
+                                       "asset":  0,
+                                       "region":  19000986,
+                                       "clone":  19002800,
+                                       "radius":  110,
+                                       "center":  [
+                                                      140.85,
+                                                      90.91,
+                                                      -551.59
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       19000950,
+                                                       19000700,
+                                                       19000710,
+                                                       19000130
+                                                   ],
+                                    "assets":  [
+                                                   19001950,
+                                                   19001100,
+                                                   19001101,
+                                                   19001110,
+                                                   19001120,
+                                                   19001130
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "elden_beast",
+                       "map":  "m19_00_00_00",
+                       "mapId":  [
+                                     19,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  19000800,
+                       "anchorEntity":  19000800,
+                       "defeatFlag":  19000800,
+                       "nameId":  902200000,
+                       "banner":  27,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  19002802,
+                       "startRegion":  0,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  19000985,
+                                     "clone":  19000980,
+                                     "x":  206.03,
+                                     "y":  -719.49,
+                                     "z":  -670.68,
+                                     "rotY":  -25.83
+                                 },
+                       "exitSpawn":  19000980,
+                       "flags":  {
+                                     "request":  19000980,
+                                     "active":  19000981,
+                                     "warping":  19000982,
+                                     "loaded":  19000983,
+                                     "wasDefeated":  19000984
+                                 },
+                       "presenceDelay":  60,
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  19000804,
+                                           "value":  19000966,
+                                           "saved":  19000967
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  19001800,
+                                            "sfx":  5,
+                                            "early":  0
+                                        }
+                                    ],
+                       "hide":  {
+                                    "characters":  [
+                                                       19000950,
+                                                       19000700,
+                                                       19000710,
+                                                       19000130
+                                                   ],
+                                    "assets":  [
+                                                   19001950,
+                                                   19001100,
+                                                   19001101,
+                                                   19001110,
+                                                   19001120,
+                                                   19001130
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "margit",
+                       "map":  "m10_00_00_00",
+                       "mapId":  [
+                                     10,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  10000850,
+                       "anchorEntity":  10000850,
+                       "defeatFlag":  10000850,
+                       "nameId":  902130000,
+                       "banner":  17,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  10002855,
+                       "startRegion":  10002850,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  10000978,
+                                     "clone":  10000988,
+                                     "x":  21.92,
+                                     "y":  -6.6,
+                                     "z":  -12.43,
+                                     "rotY":  96.13
+                                 },
+                       "exitSpawn":  10000982,
+                       "flags":  {
+                                     "request":  10000995,
+                                     "active":  10000996,
+                                     "warping":  10000997,
+                                     "loaded":  10000998,
+                                     "wasDefeated":  10000999
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  10000851,
+                                           "value":  10000962,
+                                           "saved":  10000963
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  10001850,
+                                            "sfx":  3,
+                                            "early":  10000851
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  10001850,
+                                       "region":  10000977,
+                                       "clone":  10002850,
+                                       "radius":  31,
+                                       "center":  [
+                                                      1.65,
+                                                      -4.6,
+                                                      -14.89
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       10000950,
+                                                       10000951
+                                                   ],
+                                    "assets":  [
+                                                   10001950,
+                                                   10001951
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "godskin_duo",
+                       "map":  "m13_00_00_00",
+                       "mapId":  [
+                                     13,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  13000850,
+                       "anchorEntity":  13000851,
+                       "defeatFlag":  13000850,
+                       "nameId":  903575000,
+                       "banner":  17,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  13002855,
+                       "startRegion":  13002850,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  13000976,
+                                     "clone":  13000990,
+                                     "x":  -0.26,
+                                     "y":  -38.64,
+                                     "z":  387.14,
+                                     "rotY":  165.23
+                                 },
+                       "exitSpawn":  13000982,
+                       "flags":  {
+                                     "request":  13000980,
+                                     "active":  13000981,
+                                     "warping":  13000982,
+                                     "loaded":  13000983,
+                                     "wasDefeated":  13000984
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  13001850,
+                                            "sfx":  5,
+                                            "early":  13000851
+                                        },
+                                        {
+                                            "asset":  13001852,
+                                            "sfx":  5,
+                                            "early":  0
+                                        },
+                                        {
+                                            "asset":  13001853,
+                                            "sfx":  5,
+                                            "early":  0
+                                        },
+                                        {
+                                            "asset":  13001854,
+                                            "sfx":  5,
+                                            "early":  0
+                                        },
+                                        {
+                                            "asset":  13001855,
+                                            "sfx":  5,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  13001850,
+                                       "region":  13000975,
+                                       "clone":  13002850,
+                                       "radius":  28,
+                                       "center":  [
+                                                      13.08,
+                                                      -38.57,
+                                                      398.24
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       13000951,
+                                                       13000952
+                                                   ],
+                                    "assets":  [
+                                                   13001951,
+                                                   13001952
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "loretta",
+                       "map":  "m15_00_00_00",
+                       "mapId":  [
+                                     15,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  15000850,
+                       "anchorEntity":  15000850,
+                       "defeatFlag":  15000850,
+                       "nameId":  903252000,
+                       "banner":  17,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  15002855,
+                       "startRegion":  15002851,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  15000978,
+                                     "clone":  15000988,
+                                     "x":  141.48,
+                                     "y":  432.39,
+                                     "z":  214.58,
+                                     "rotY":  -130.28
+                                 },
+                       "exitSpawn":  15000985,
+                       "flags":  {
+                                     "request":  15000995,
+                                     "active":  15000996,
+                                     "warping":  15000997,
+                                     "loaded":  15000998,
+                                     "wasDefeated":  15000999
+                                 },
+                       "dlc":  false,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "clearFlag":  15000851,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  15001850,
+                                            "sfx":  3,
+                                            "early":  15000851
+                                        },
+                                        {
+                                            "asset":  15001851,
+                                            "sfx":  3,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  15001850,
+                                       "region":  15000977,
+                                       "clone":  15002850,
+                                       "radius":  60,
+                                       "center":  [
+                                                      157.93,
+                                                      432.07,
+                                                      261.24
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       15000950,
+                                                       15000955
+                                                   ],
+                                    "assets":  [
+                                                   15001950,
+                                                   15001955
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "dancing_lion",
+                       "map":  "m20_00_00_00",
+                       "mapId":  [
+                                     20,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  20000800,
+                       "anchorEntity":  20000800,
+                       "defeatFlag":  20000800,
+                       "nameId":  905210000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  20002805,
+                       "startRegion":  20002800,
+                       "fallbackAi":  true,
+                       "spawn":  {
+                                     "entity":  20000989,
+                                     "clone":  20000983,
+                                     "x":  -57.16,
+                                     "y":  118.62,
+                                     "z":  288.24,
+                                     "rotY":  -166.44
+                                 },
+                       "exitSpawn":  20000983,
+                       "flags":  {
+                                     "request":  20000990,
+                                     "active":  20000991,
+                                     "warping":  20000992,
+                                     "loaded":  20000993,
+                                     "wasDefeated":  20000994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  20000801,
+                                           "value":  20000960,
+                                           "saved":  20000961
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  20001800,
+                                            "sfx":  4,
+                                            "early":  20000801
+                                        },
+                                        {
+                                            "asset":  20001801,
+                                            "sfx":  4,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  20001800,
+                                       "region":  20000988,
+                                       "clone":  20002800,
+                                       "radius":  31,
+                                       "center":  [
+                                                      -51.18,
+                                                      118.31,
+                                                      307.74
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       20000950
+                                                   ],
+                                    "assets":  [
+                                                   20001950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "rellana",
+                       "map":  "m61_48_44_00",
+                       "mapId":  [
+                                     61,
+                                     48,
+                                     44,
+                                     0
+                                 ],
+                       "bossEntity":  2048440800,
+                       "anchorEntity":  2048440800,
+                       "defeatFlag":  2048440800,
+                       "nameId":  905300000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  2048442805,
+                       "startRegion":  2048442800,
+                       "fallbackAi":  true,
+                       "spawn":  {
+                                     "entity":  2048440989,
+                                     "clone":  2048440981,
+                                     "x":  -58.31,
+                                     "y":  427.52,
+                                     "z":  13.53,
+                                     "rotY":  -174.74
+                                 },
+                       "exitSpawn":  2048440980,
+                       "flags":  {
+                                     "request":  2048440990,
+                                     "active":  2048440991,
+                                     "warping":  2048440992,
+                                     "loaded":  2048440993,
+                                     "wasDefeated":  2048440994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  2048441800,
+                                            "sfx":  3,
+                                            "early":  1
+                                        },
+                                        {
+                                            "asset":  2048441801,
+                                            "sfx":  3,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  2048441800,
+                                       "region":  2048440988,
+                                       "clone":  2048442800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       2048440950
+                                                   ],
+                                    "assets":  [
+                                                   2048441950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "gaius",
+                       "map":  "m61_49_48_00",
+                       "mapId":  [
+                                     61,
+                                     49,
+                                     48,
+                                     0
+                                 ],
+                       "bossEntity":  2049480800,
+                       "anchorEntity":  2049480800,
+                       "defeatFlag":  2049480800,
+                       "nameId":  905000000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  2049482805,
+                       "startRegion":  2049482800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  2049480989,
+                                     "clone":  2049480981,
+                                     "x":  48.36,
+                                     "y":  584.52,
+                                     "z":  -47.82,
+                                     "rotY":  -164.05
+                                 },
+                       "exitSpawn":  2049480981,
+                       "flags":  {
+                                     "request":  2049480990,
+                                     "active":  2049480991,
+                                     "warping":  2049480992,
+                                     "loaded":  2049480993,
+                                     "wasDefeated":  2049480994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6000,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  2049481800,
+                                            "sfx":  4,
+                                            "early":  2049480801
+                                        },
+                                        {
+                                            "asset":  2049481801,
+                                            "sfx":  4,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  2049481800,
+                                       "region":  2049480988,
+                                       "clone":  2049482800,
+                                       "radius":  42,
+                                       "center":  [
+                                                      64.63,
+                                                      582.25,
+                                                      -20.47
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       2049480950
+                                                   ],
+                                    "assets":  [
+                                                   2049481950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "scadutree_avatar",
+                       "map":  "m61_50_48_00",
+                       "mapId":  [
+                                     61,
+                                     50,
+                                     48,
+                                     0
+                                 ],
+                       "bossEntity":  2050480800,
+                       "anchorEntity":  2050480802,
+                       "defeatFlag":  2050480800,
+                       "nameId":  905230000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  2050482805,
+                       "startRegion":  2050482800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  2050480989,
+                                     "clone":  2050480981,
+                                     "x":  -78.13,
+                                     "y":  191,
+                                     "z":  14.96,
+                                     "rotY":  -152.63
+                                 },
+                       "exitSpawn":  2050480981,
+                       "flags":  {
+                                     "request":  2050480990,
+                                     "active":  2050480991,
+                                     "warping":  2050480992,
+                                     "loaded":  2050480993,
+                                     "wasDefeated":  2050480994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  0,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  2050481800,
+                                            "sfx":  5,
+                                            "early":  2050480801
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  2050481800,
+                                       "region":  2050480988,
+                                       "clone":  2050482800,
+                                       "radius":  48,
+                                       "center":  [
+                                                      -66.38,
+                                                      190.51,
+                                                      50.11
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       2050480951
+                                                   ],
+                                    "assets":  [
+                                                   2050481951
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "putrescent_knight",
+                       "map":  "m22_00_00_00",
+                       "mapId":  [
+                                     22,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  22000800,
+                       "anchorEntity":  22000800,
+                       "defeatFlag":  22000800,
+                       "nameId":  905020000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  22002805,
+                       "startRegion":  22002802,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  22000989,
+                                     "clone":  22000984,
+                                     "x":  -19.3,
+                                     "y":  215.82,
+                                     "z":  213.35,
+                                     "rotY":  26.64
+                                 },
+                       "exitSpawn":  22000980,
+                       "flags":  {
+                                     "request":  22000990,
+                                     "active":  22000991,
+                                     "warping":  22000992,
+                                     "loaded":  22000993,
+                                     "wasDefeated":  22000994
+                                 },
+                       "radius":  600,
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  0,
+                       "prepFog":  {
+                                       "asset":  0,
+                                       "region":  22000988,
+                                       "clone":  22002800,
+                                       "radius":  55,
+                                       "center":  [
+                                                      -37,
+                                                      -320,
+                                                      172.6
+                                                  ],
+                                       "height":  560,
+                                       "arena":  22002802
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       22000950
+                                                   ],
+                                    "assets":  [
+                                                   22001950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "romina",
+                       "map":  "m61_44_45_00",
+                       "mapId":  [
+                                     61,
+                                     44,
+                                     45,
+                                     0
+                                 ],
+                       "bossEntity":  2044450800,
+                       "anchorEntity":  2044450800,
+                       "defeatFlag":  2044450800,
+                       "nameId":  905030000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  2044452805,
+                       "startRegion":  2044452800,
+                       "fallbackAi":  true,
+                       "spawn":  {
+                                     "entity":  2044450989,
+                                     "clone":  2044450981,
+                                     "x":  -47.21,
+                                     "y":  625.92,
+                                     "z":  174.98,
+                                     "rotY":  10.8
+                                 },
+                       "exitSpawn":  2044450981,
+                       "flags":  {
+                                     "request":  2044450990,
+                                     "active":  2044450991,
+                                     "warping":  2044450992,
+                                     "loaded":  2044450993,
+                                     "wasDefeated":  2044450994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6002,
+                       "variants":  [
+                                        {
+                                            "map":  "m61_44_45_10",
+                                            "copy":  [
+                                                         2044450800,
+                                                         2044450820,
+                                                         2044451800,
+                                                         2044451801,
+                                                         2044451820,
+                                                         2044452800,
+                                                         2044452820
+                                                     ]
+                                        }
+                                    ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  2044451800,
+                                            "sfx":  5,
+                                            "early":  1
+                                        },
+                                        {
+                                            "asset":  2044451801,
+                                            "sfx":  5,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  2044451800,
+                                       "region":  2044450988,
+                                       "clone":  2044452800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       2044450951
+                                                   ],
+                                    "assets":  [
+                                                   2044451951
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "messmer",
+                       "map":  "m21_01_00_00",
+                       "mapId":  [
+                                     21,
+                                     1,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  21010800,
+                       "anchorEntity":  21010801,
+                       "defeatFlag":  21010800,
+                       "nameId":  905130000,
+                       "banner":  16,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  21012805,
+                       "startRegion":  21012800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  21010989,
+                                     "clone":  21010987,
+                                     "x":  97.38,
+                                     "y":  352.27,
+                                     "z":  319.43,
+                                     "rotY":  157.09
+                                 },
+                       "exitSpawn":  21010984,
+                       "flags":  {
+                                     "request":  21010990,
+                                     "active":  21010991,
+                                     "warping":  21010992,
+                                     "loaded":  21010993,
+                                     "wasDefeated":  21010994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "tempOff":  [
+                                       {
+                                           "flag":  21010801,
+                                           "value":  21010960,
+                                           "saved":  21010961
+                                       },
+                                       {
+                                           "flag":  21018542,
+                                           "value":  21010962,
+                                           "saved":  21010963
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  21011800,
+                                            "sfx":  5,
+                                            "early":  21010801
+                                        },
+                                        {
+                                            "asset":  21011801,
+                                            "sfx":  0,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  21011800,
+                                       "region":  21010988,
+                                       "clone":  21012800,
+                                       "radius":  36,
+                                       "center":  [
+                                                      90.44,
+                                                      352.03,
+                                                      344.04
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       21010950
+                                                   ],
+                                    "assets":  [
+                                                   21011950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "midra",
+                       "map":  "m28_00_00_00",
+                       "mapId":  [
+                                     28,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  28000800,
+                       "anchorEntity":  28000801,
+                       "defeatFlag":  28000800,
+                       "nameId":  905051000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  28002805,
+                       "startRegion":  28002800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  28000989,
+                                     "clone":  28000983,
+                                     "x":  -8.35,
+                                     "y":  16.34,
+                                     "z":  -69.48,
+                                     "rotY":  12.77
+                                 },
+                       "exitSpawn":  28000983,
+                       "flags":  {
+                                     "request":  28000990,
+                                     "active":  28000991,
+                                     "warping":  28000992,
+                                     "loaded":  28000993,
+                                     "wasDefeated":  28000994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "prepFog":  {
+                                       "asset":  28001800,
+                                       "region":  28000988,
+                                       "clone":  28002800,
+                                       "radius":  23,
+                                       "center":  [
+                                                      -10.07,
+                                                      16.18,
+                                                      -81.53
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       28000950
+                                                   ],
+                                    "assets":  [
+                                                   28001950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "metyr",
+                       "map":  "m25_00_00_00",
+                       "mapId":  [
+                                     25,
+                                     0,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  25000800,
+                       "anchorEntity":  25000800,
+                       "defeatFlag":  25000800,
+                       "nameId":  905200000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  25002805,
+                       "startRegion":  25002800,
+                       "fallbackAi":  true,
+                       "spawn":  {
+                                     "entity":  25000989,
+                                     "clone":  25000980,
+                                     "x":  85.22,
+                                     "y":  0.52,
+                                     "z":  4.02,
+                                     "rotY":  85.5
+                                 },
+                       "exitSpawn":  25000980,
+                       "flags":  {
+                                     "request":  25000990,
+                                     "active":  25000991,
+                                     "warping":  25000992,
+                                     "loaded":  25000993,
+                                     "wasDefeated":  25000994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "prepFog":  {
+                                       "asset":  0,
+                                       "region":  25000988,
+                                       "clone":  25002800,
+                                       "radius":  25
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       25000950
+                                                   ],
+                                    "assets":  [
+                                                   25001950
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "bayle",
+                       "map":  "m61_54_39_00",
+                       "mapId":  [
+                                     61,
+                                     54,
+                                     39,
+                                     0
+                                 ],
+                       "bossEntity":  2054390800,
+                       "anchorEntity":  2054390800,
+                       "defeatFlag":  2054390800,
+                       "nameId":  905120000,
+                       "banner":  15,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  2054392805,
+                       "startRegion":  2054392800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  2054390989,
+                                     "clone":  2054390980,
+                                     "x":  82.19,
+                                     "y":  954.85,
+                                     "z":  78.48,
+                                     "rotY":  -32.91
+                                 },
+                       "exitSpawn":  2054390980,
+                       "flags":  {
+                                     "request":  2054390990,
+                                     "active":  2054390991,
+                                     "warping":  2054390992,
+                                     "loaded":  2054390993,
+                                     "wasDefeated":  2054390994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6001,
+                       "fogWalls":  [
+                                        {
+                                            "asset":  2054391800,
+                                            "sfx":  1560,
+                                            "early":  2054390801
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  2054391800,
+                                       "region":  2054390988,
+                                       "clone":  2054392800,
+                                       "radius":  52,
+                                       "center":  [
+                                                      107.48,
+                                                      954.58,
+                                                      45.38
+                                                  ]
+                                   },
+                       "hide":  {
+                                    "characters":  [
+
+                                                   ],
+                                    "assets":  [
+
+                                               ]
+                                }
+                   },
+                   {
+                       "key":  "radahn_consort",
+                       "map":  "m20_01_00_00",
+                       "mapId":  [
+                                     20,
+                                     1,
+                                     0,
+                                     0
+                                 ],
+                       "bossEntity":  20010800,
+                       "anchorEntity":  20010801,
+                       "defeatFlag":  20010800,
+                       "nameId":  905220000,
+                       "banner":  27,
+                       "finalPhaseFlag":  0,
+                       "fogFlag":  20012805,
+                       "startRegion":  20012800,
+                       "fallbackAi":  false,
+                       "spawn":  {
+                                     "entity":  20010989,
+                                     "clone":  20010986,
+                                     "x":  -205.14,
+                                     "y":  299.39,
+                                     "z":  -184.42,
+                                     "rotY":  118.54
+                                 },
+                       "exitSpawn":  20010980,
+                       "flags":  {
+                                     "request":  20010990,
+                                     "active":  20010991,
+                                     "warping":  20010992,
+                                     "loaded":  20010993,
+                                     "wasDefeated":  20010994
+                                 },
+                       "dlc":  true,
+                       "realDeath":  false,
+                       "deathAnim":  6002,
+                       "tempOff":  [
+                                       {
+                                           "flag":  20010801,
+                                           "value":  20010960,
+                                           "saved":  20010961
+                                       }
+                                   ],
+                       "fogWalls":  [
+                                        {
+                                            "asset":  20011800,
+                                            "sfx":  1590,
+                                            "early":  1
+                                        },
+                                        {
+                                            "asset":  20011801,
+                                            "sfx":  0,
+                                            "early":  0
+                                        }
+                                    ],
+                       "prepFog":  {
+                                       "asset":  20011800,
+                                       "region":  20010988,
+                                       "clone":  20012800,
+                                       "radius":  12
+                                   },
+                       "hide":  {
+                                    "characters":  [
+                                                       20010950
+                                                   ],
+                                    "assets":  [
+                                                   20011950
+                                               ]
+                                }
+                   }
+               ]
+}

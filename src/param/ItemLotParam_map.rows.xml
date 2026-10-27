@@ -1,0 +1,7 @@
+<!-- Rows added to ItemLotParam_map by build.ps1 (MsbDump reg-add-rows), awarded by event 7980010.
+     copyFrom = vanilla row to start from; the other attributes are the fields that differ from it. -->
+<rows>
+  <!-- Serpent-Hunter for Rykard's reflection: the lot of Rykard's corpse (16000690) without its
+       "already picked up" flag, so it can be awarded every time. -->
+  <row id="7980000" copyFrom="16000690" paramdexName="[Boss Reflections] Serpent-Hunter" getItemFlagId="0" />
+</rows>

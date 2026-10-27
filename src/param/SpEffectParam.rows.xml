@@ -1,0 +1,8 @@
+<!-- Rows added to SpEffectParam by build.ps1 (MsbDump reg-add-rows).
+     copyFrom = vanilla row to start from; the other attributes are the fields that differ from it. -->
+<rows>
+  <!-- Return to the last rested grace: Memory of Grace (3226) without "lose all held runes". -->
+  <row id="7980000" copyFrom="3226" paramdexName="[Boss Reflections] Return to grace, keep runes" clearSoul="0" />
+  <!-- No runes from kills while a reflection runs: Gold Scarab (311100, rune gain x1.2) with x0, no buff icon. -->
+  <row id="7980001" copyFrom="311100" paramdexName="[Boss Reflections] No runes from kills" soulRate="0" iconId="-1" />
+</rows>

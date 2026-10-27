@@ -1,0 +1,7 @@
+<!-- Rows added to ActionButtonParam by build.ps1 (MsbDump reg-add-rows), used by event 7980013.
+     copyFrom = vanilla row to start from; the other attributes are the fields that differ from it. -->
+<rows>
+  <!-- "Begin the battle" prompt that starts a reflection's fight (Fortissax): the 1.5 m "Examine" prompt
+       9140 with our text (ActionButtonText 29800001, added by EsdUtil patch-msg). -->
+  <row id="7980000" copyFrom="9140" paramdexName="[Boss Reflections] Begin the battle" textId="29800001" />
+</rows>

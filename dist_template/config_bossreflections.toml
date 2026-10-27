@@ -1,0 +1,15 @@
+# Mod Engine 2 profile for Boss Reflections. launch_bossreflections.bat rewrites this file at every start
+# with the absolute path of BossReflections\mod (Mod Engine 2 can't resolve a relative mod path).
+[modengine]
+debug = false
+external_dlls = []
+
+[extension.mod_loader]
+enabled = true
+loose_params = false
+mods = [
+    { enabled = true, name = "bossreflections", path = "BossReflections\\mod" }
+]
+
+[extension.scylla_hide]
+enabled = false
